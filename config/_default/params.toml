@@ -18,7 +18,7 @@ enableCodeCopy = false
 disableImageOptimization = true
 disableTextInHeader = false
 
- #defaultBackgroundImage = "background.jpg" # used as default for background images 
+defaultBackgroundImage = "ocean.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
@@ -37,20 +37,20 @@ disableTextInHeader = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "background.jpg" # used in: hero, and card
+  homepageImage = "ocean.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
   showMoreLinkDest = "/posts"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
-  showDateUpdated = false
+  showViews = true
+  showLikes = true
+  showDateUpdated = true
   showAuthor = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
@@ -69,9 +69,9 @@ disableTextInHeader = false
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 3
-  showTaxonomies = false
+  showTaxonomies = true
   showAuthorsBadges = false
-  showWordCount = true
+  showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
