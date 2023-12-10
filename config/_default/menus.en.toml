@@ -23,16 +23,7 @@
   name = "🧠 Projects"
   pageRef = "projects"
   weight = 20
-[[main]]
-  name = "Academic"
-  pageRef = "academic"
-  weight = 10
-  parent = "🧠 Projects"
-[[main]]
-  name = "Personal"
-  pageRef = "personal"
-  weight = 10
-  parent = "🧠 Projects"
+
 
 [[main]]
   name = "🚩 Writeups"
@@ -94,12 +85,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+ [[footer]]
+   name = "Categories"
+   pageRef = "categories"
+   weight = 20
